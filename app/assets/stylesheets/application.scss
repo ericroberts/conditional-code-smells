@@ -1,0 +1,6 @@
+@import "foundation_and_overrides";
+@import "mixins";
+
+body > section {
+  @extend %grid-row;
+}

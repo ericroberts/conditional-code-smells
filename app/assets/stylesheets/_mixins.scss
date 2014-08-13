@@ -1,0 +1,9 @@
+%grid-row {
+  @include grid-row;
+}
+
+@for $i from 1 through $total-columns {
+  %grid-column-#{$i} {
+    @include grid-column($i);
+  }
+}

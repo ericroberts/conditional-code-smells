@@ -1,0 +1,10 @@
+doctype html
+html
+  head
+    title Conditional Code Smells
+    = stylesheet_link_tag '//fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700,300italic,400italic,500italic,700italic', :application, media: 'all'
+    = javascript_include_tag :application
+    = csrf_meta_tags
+  body
+    section
+      = yield
