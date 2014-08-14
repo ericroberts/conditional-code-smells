@@ -4,3 +4,16 @@
 body > section {
   @extend %grid-row;
 }
+
+#chart {
+  background: #f0f0f0;
+  position: relative;
+
+  > div {
+    vertical-align: bottom;
+    background: rgba(#000, 0.25);
+    width: 10px;
+    position: absolute;
+    bottom: 0;
+  }
+}

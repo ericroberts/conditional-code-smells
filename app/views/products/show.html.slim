@@ -1,1 +1,9 @@
 h1= @product.name
+- if @product.pricings.present?
+  - max_price = @product.pricings.max_by { |p| p.price }.price
+  - first_date = @product.pricings.min_by { |p| p.dtstart }.dtstart
+  - last_date = @product.pricings.max_by { |p| p.dtend }.dtend
+  - total_date_distance = last_date - first_date
+  #chart style="height: 500px"
+    - @product.pricings.each do |pricing|
+      div style="height: #{(pricing.price/max_price)*100}%; width: #{((pricing.dtend - pricing.dtstart)/total_date_distance).to_f*100}%; left: #{((pricing.dtstart - first_date)/total_date_distance).to_f*100}%;"
