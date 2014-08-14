@@ -257,7 +257,6 @@ DEPENDENCIES
   rspec-rails (~> 3.0)
   rubocop
   sass-rails (~> 4.0.3)
-  simplecov
   slim
   spring
   spring-commands-rspec

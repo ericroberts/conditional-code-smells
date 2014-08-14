@@ -32,7 +32,3 @@ group :development, :test do
   gem 'spring-commands-rspec'
   gem 'terminal-notifier-guard', require: false
 end
-
-group :test do
-  gem 'simplecov'
-end
