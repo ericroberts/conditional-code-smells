@@ -2,11 +2,9 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.1.1'
 
-gem 'amcharts.rb'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'coveralls', require: false
 gem 'foundation-rails'
-gem 'jbuilder'
 gem 'jquery-rails'
 gem 'money-rails'
 gem 'sass-rails', '~> 4.0.3'
