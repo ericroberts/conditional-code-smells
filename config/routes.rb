@@ -5,4 +5,6 @@ Rails.application.routes.draw do
       get :pricings
     end
   end
+
+  root to: 'products#index'
 end
