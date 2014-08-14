@@ -1,4 +1,3 @@
-[![Gem Version](https://badge.fury.io/rb/conditional-code-smells.png)](http://badge.fury.io/rb/conditional-code-smells)
 [![Build Status](https://travis-ci.org/ericroberts/conditional-code-smells.png?branch=master)](https://travis-ci.org/ericroberts/conditional-code-smells)
 [![Code Climate](https://codeclimate.com/github/ericroberts/conditional-code-smells.png)](https://codeclimate.com/github/ericroberts/conditional-code-smells)
 [![Coverage Status](https://coveralls.io/repos/ericroberts/conditional-code-smells/badge.png?branch=master)](https://coveralls.io/r/ericroberts/conditional-code-smells?branch=master)
